@@ -9,3 +9,11 @@ tokenizer = AutoTokenizer.from_pretrained("entelecheia/ekonelectra-base-discrimi
 
 model = AutoModelForPreTraining.from_pretrained("entelecheia/ekonelectra-base-discriminator")
 ```
+
+```python
+from transformers import AutoTokenizer, AutoModelForPreTraining
+
+tokenizer = AutoTokenizer.from_pretrained("entelecheia/ekonelectra-small-discriminator")
+
+model = AutoModelForPreTraining.from_pretrained("entelecheia/ekonelectra-small-discriminator")
+```
